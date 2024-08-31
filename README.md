@@ -1,77 +1,88 @@
 # Steam-Maestro
 A powerful and user-friendly Steam account management tool designed to help users efficiently manage their Steam game library, optimize game settings, and enhance their overall gaming experience.
 
-[中文（停止更新）](https://gitgud.io/ahsk/clewd)
+[中文版（停止更新）]([https://gitgud.io/ahsk/clewd](https://github.com/Sy1vian/Steam-Maestro/blob/main/Chinese%20Program%20Description))
 ## Steam 插件功能介绍（中文分支已停止维护，老用户出现问题请更新最新版本）
 
-### 游戏库管理
-* **智能分类：** 基于游戏类型、标签、游玩时间、成就等多维度，使用机器学习算法进行智能分类，帮助用户快速找到想玩的游戏。
-* **自定义标签：** 用户可以自定义标签，对游戏进行更细粒度的分类。
-* **收藏夹管理：** 创建多个收藏夹，将游戏按不同主题或系列进行分类。
-* **游戏时长统计：** 详细记录每个游戏的游玩时长，生成可视化图表。
-* **成就追踪：** 支持所有Steam成就的追踪，并提供详细的进度展示。
-* **云同步：** 将游戏库数据同步到你账户的ONEDRIVE等自己的云端，额外备份存档，实现客制化跨设备访问。
+Game Library Management
 
-### 游戏优化
-* **自动配置：** 根据硬件配置和游戏特性，自动优化游戏设置与启动项，提升游戏性能。
-* **自定义配置方案：** 用户可以创建多个配置方案，适应不同游戏和场景。
-* **一键切换配置：** 快速切换不同配置方案，无需手动调整。
-* **驱动更新提醒：** 自动检测并提醒用户更新显卡驱动等硬件驱动。
+    Intelligent Categorization: Employs machine learning to categorize games based on genre, tags, playtime, achievements, and more, enabling users to quickly find desired games.
+    Custom Tags: Allows users to create custom tags for granular game categorization.
+    Favorites Management: Enables creation of multiple collections to categorize games by theme or series.
+    Playtime Statistics: Detailed tracking of playtime for each game, generating visual charts.
+    Achievement Tracking: Supports tracking of all Steam achievements with detailed progress displays.
+    Cloud Sync: Synchronizes game library data to your personal cloud storage like OneDrive for additional backup and customized cross-device access.
 
-### 社区互动
-* **消息提醒：** 实时推送好友消息、群组通知、活动邀请等。
-* **快速回复：** 支持快速回复好友消息和群组讨论，提升沟通效率。
-* **表情包管理：** 自建表情包库，丰富聊天互动。
-* **社区活动参与：** 提供社区活动一览，方便用户参与。
+Game Optimization
 
-### 个人资料管理
-* **自定义个人资料：** 自由编辑个人资料展示，展示个人游戏成就。
-* **隐私设置：** 细粒度控制个人信息可见性。
-* **好友管理：** 支持批量添加、删除好友，创建好友分组。
+    Automatic Configuration: Optimizes game settings and startup items based on hardware configuration and game characteristics, enhancing performance.
+    Custom Configuration Profiles: Users can create multiple configuration profiles to suit different games and scenarios.
+    One-Click Configuration Switching: Quickly switch between different configuration profiles without manual adjustments.
+    Driver Update Reminders: Automatically detects and reminds users to update graphics drivers and other hardware drivers.
 
-### 友人帐排名
-******虽然一般来说主页的友人帐排名不分先后，但也提供全托管自动的排序。
-* **多维度排名：** 根据游戏时长、成就数量、交易额等维度进行排名。
-* **自定义排名规则：** 用户可以自定义排名规则，查看个性化排名。
-* **历史排名查询：** 每次更新都会备份排名，可以查看历史排名数据，了解排名变化。
-* **活跃度：** 根据好友的最近一次上线，有无给你的主页留言，有无与你发消息交易互动增减排名（如好友资料私密会影响部分准确性）
+Community Interaction
 
-### 留言管理
-* **智能过滤：** 使用机器学习算法，自动过滤广告、骚扰等垃圾留言。
-* **自定义过滤规则：** 支持自定义关键词和正则过滤。
-* **留言回复模板：** 提供常用回复模板，提高回复效率。通过云托管可以做到24小时定时留言。
-* **留言检测：** 支持正则自动检测留言板和好友动态，检测到类似疑似KEY的都会自动激活。可以设置检测激活成功后自动在相关板块留言不做伸手党！
+    Message Notifications: Real-time push notifications for friend messages, group notifications, and event invitations.
+    Quick Replies: Supports quick replies to friend messages and group discussions, improving communication efficiency.
+    Emoji Management: Create custom emoji libraries to enrich chat interactions.
+    Community Event Participation: Provides an overview of community events for easy participation.
 
-### 好友管理
-* **智能推荐：** 根据用户的游戏喜好，推荐潜在好友。
-* **自定义过滤申请规则：** 支持按游戏、地区、在线时长，等级等条件过滤好友申请。（这部分源码参考了Steam Inventory Helper）
-* **智能删除：** 客制化自动删除满符合条件的好友，应用场景：如根据活跃度，自动删除N天未上线的好友。（好友资料私密或者隐身会误杀，现在提供了白名单以及额外检测留言和其他互动的动态）
+Personal Profile Management
 
-### 交易管理
-* **交易历史查询：** 提供详细的可图表化，视图化的交易历史记录。
-* **价格监控：** 设置价格监控，当物品价格达到设定值时收到提醒。
-* **批量挂售/购买：** 支持批量挂售和购买物品。提供详细客制化条件做到托管式倒爷自动交易。
-* **市场行情分析：** 提供Steam 市场游戏物品的价格走势图，帮助用户做出更明智的交易决策。
-* **批量管理：** 支持批量上架、下架物品。
-* **交易提醒：** 设置交易提醒，避免错过交易机会。
+    Customizable Profile: Freely edit personal profile display to showcase personal gaming achievements.
+    Privacy Settings: Fine-grained control over the visibility of personal information.
+    Friend Management: Supports batch adding, removing, and grouping friends.
 
-### 活动相关
-* **活动日历：** 显示当前和即将到来的Steam活动。
-* **折扣提醒：** 设置价格监控，当心仪游戏打折时收到提醒。
-* **免费游戏提醒：** 提醒用户免费游戏领取活动。可设置自动入库当前账号满足入库条件的游戏，喜加一党有福了。
+Friend List Ranking
 
-### 其他功能
-* **截图管理：** 自动保存已支持游戏高光&战绩截图，并提供分类、搜索功能。（目前仅支持CS2）
-* **游戏新闻推送：** 实时推送高质量游戏新闻、评测等信息。
-* **插件扩展：** 支持用户额外自定义插件，扩展功能。
+    Multi-dimensional Ranking: Ranks friends based on playtime, achievements, trading volume, and other dimensions.
+    Custom Ranking Rules: Users can define custom ranking rules to view personalized rankings.
+    Historical Ranking Query: Backs up rankings with each update, allowing users to view historical ranking data and understand ranking changes.
+    Activity: Ranks friends based on recent logins, messages to your profile, and interactions like trading (privacy settings may affect accuracy).
 
-### 技术实现
-* **前端：** React/Vue + TypeScript
-* **后端：** Node.js + Express
-* **数据库：** MongoDB
-* **云服务：** AWS/Azure
+Message Management
 
-### 未来规划
-* **游戏数据分析：** 提供更深入的游戏数据分析，帮助用户了解自己的游戏习惯。
-* **社区论坛：** 创建一个插件专属的社区论坛，方便用户交流和分享。
-* **AI助手：** 引入AI技术，提供智能化的游戏推荐和攻略。
+    Intelligent Filtering: Uses machine learning algorithms to automatically filter out spam and harassment.
+    Custom Filtering Rules: Supports custom keyword and regular expression filtering.
+    Message Reply Templates: Provides common reply templates to improve response efficiency. Cloud-hosted for 24-hour automated messaging.
+    Message Detection: Supports regular expression-based automatic detection of keywords in message boards and friend feeds, activating custom actions.
+
+Friend Management
+
+    Intelligent Recommendations: Recommends potential friends based on user game preferences.
+    Customizable Friend Request Filtering: Supports filtering friend requests based on games, region, online time, level, etc. (This part of the code references Steam Inventory Helper)
+    Intelligent Deletion: Customizes automatic deletion of friends meeting specific conditions, such as inactivity. (Privacy settings or invisible status may cause误杀, so a whitelist and additional detection of messages and other interactions are provided)
+
+Trade Management
+
+    Detailed Transaction History: Provides detailed, visualizable transaction history.
+    Price Monitoring: Sets price monitoring to receive alerts when item prices reach a set value.
+    Batch Listing/Purchasing: Supports batch listing and purchasing of items. Provides detailed customization options for automated trading.
+    Market Analysis: Provides price trends for Steam market items, helping users make more informed trading decisions.
+    Batch Management: Supports batch listing and delisting items.
+    Trade Alerts: Sets trade alerts to avoid missing trading opportunities.
+
+Event-Related
+
+    Event Calendar: Displays current and upcoming Steam events.
+    Discount Alerts: Sets price monitoring to receive alerts when desired games are on sale.
+    Free Game Alerts: Reminds users of free game giveaways. Can be set to automatically add eligible games to the current account.
+
+Other Features
+
+    Screenshot Management: Automatically saves highlights and match screenshots for supported games, providing classification and search functions. (Currently only supports CS2)
+    Game News Feed: Real-time push notifications for high-quality game news and reviews.
+    Plugin Extensions: Supports user-defined custom plugins to expand functionality.
+
+Technical Implementation
+
+    Frontend: React/Vue + TypeScript
+    Backend: Node.js + Express
+    Database: MongoDB
+    Cloud Services: AWS/Azure
+
+Future Plans
+
+    Game Data Analysis: Provides deeper game data analysis to help users understand their gaming habits.
+    Community Forum: Creates a plugin-specific community forum for users to communicate and share.
+    AI Assistant: Introduces AI technology to provide intelligent game recommendations and strategies

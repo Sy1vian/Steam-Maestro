@@ -60,23 +60,18 @@ A powerful and user-friendly Steam account management tool designed to help user
 * **Free Game Alerts:**  Remind users of free game giveaways. Automatically add eligible games to the library, a boon for bundle enthusiasts.
 
 ### Additional Features
-
-* **Screenshot Management: Automatically save highlight and achievement screenshots for supported games (currently limited to CS2) with categorization and search capabilities.
-
-* **Game News Feed: Real-time updates on high-quality game news, reviews, and more.
-
-* **Plugin Extensions: Support custom plugins for extended functionality.
+* Screenshot Management: Automatically save highlight and achievement screenshots for supported games (currently limited to CS2) with categorization and search capabilities.
+* Game News Feed: Real-time updates on high-quality game news, reviews, and more.
+* Plugin Extensions: Support custom plugins for extended functionality.
 
 ### Technical Implementation
-
-* **Frontend: React/Vue + TypeScript
-* **Backend: Node.js + Express
-* **Database: MongoDB
-* **Cloud Services: AWS/Azure
+* Frontend: React/Vue + TypeScript
+* Backend: Node.js + Express
+* Database: MongoDB
+* Cloud Services: AWS/Azure
 
 ### Future Plans
-
- * **Game Data Analysis: Provide deeper insights into game data to help users understand their gaming patterns.
- * **Community Forum: Establish a dedicated community forum for plugin users to connect and share.
- * **AI Assistant: Integrate AI technology for intelligent game recommendations and strategy guides.
+* Game Data Analysis: Provide deeper insights into game data to help users understand their gaming patterns.
+* Community Forum: Establish a dedicated community forum for plugin users to connect and share.
+* AI Assistant: Integrate AI technology for intelligent game recommendations and strategy guides.
 

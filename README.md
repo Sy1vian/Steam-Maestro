@@ -1,9 +1,8 @@
 # Steam-Maestro
 A powerful and user-friendly Steam account management tool designed to help users efficiently manage their Steam game library, optimize game settings, and enhance their overall gaming experience.
 
-[中文版（停止更新）]([[https://gitgud.io/ahsk/clewd](https://github.com/Sy1vian/Steam-Maestro/blob/main/Chinese%20Program%20Description)])
-## Steam 插件功能介绍（中文分支已停止维护，老用户出现问题请更新最新版本）
-## Steam Plugin Feature Overview
+[中文版（停止更新）](https://github.com/Sy1vian/Steam-Maestro/blob/main/Chinese%20Program%20Description)
+## Steam-Maestro Feature Overview
 
 ### Game Library Management
 * **Intelligent Categorization:** Employs machine learning algorithms to categorize games based on multiple dimensions such as genre, tags, playtime, and achievements, enabling users to quickly find desired games.

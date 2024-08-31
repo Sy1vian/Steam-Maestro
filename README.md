@@ -1,6 +1,8 @@
 # Steam-Maestro
 A powerful and user-friendly Steam account management tool designed to help users efficiently manage their Steam game library, optimize game settings, and enhance their overall gaming experience.
-## Steam 插件功能介绍
+
+[中文（停止更新）](https://gitgud.io/ahsk/clewd)
+## Steam 插件功能介绍（中文分支已停止维护，老用户出现问题请更新最新版本）
 
 ### 游戏库管理
 * **智能分类：** 基于游戏类型、标签、游玩时间、成就等多维度，使用机器学习算法进行智能分类，帮助用户快速找到想玩的游戏。

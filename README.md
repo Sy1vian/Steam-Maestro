@@ -1,5 +1,6 @@
 # Steam-Maestro
 A powerful and user-friendly Steam account management tool designed to help users efficiently manage their Steam profiles, messages, customizations, interactions, optimize game settings, and enhance their overall Steam experience.
+![DEMO](https://raw.githubusercontent.com/Sy1vian/Steam-Maestro/main/img/demo.png)
 
 [中文版（停止更新）](https://github.com/Sy1vian/Steam-Maestro/blob/main/Chinese%20Program%20Description.md)
 ## Steam-Maestro Feature Overview
